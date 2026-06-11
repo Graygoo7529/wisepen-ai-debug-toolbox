@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.env
+.venv/
+venv/
+
+debug_toolbox_config.json
+debug_traces.sqlite3
+debug_traces.sqlite3-*
+
+AI 调试 Skill/
