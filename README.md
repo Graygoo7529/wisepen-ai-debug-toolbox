@@ -40,12 +40,6 @@ pip install -r requirements.txt
 python -m app.main
 ```
 
-If `python` is not on `PATH` after activation, run with the environment interpreter directly:
-
-```powershell
-C:\Anaconda3\envs\tkinter\python.exe -m app.main
-```
-
 ## Runtime Files
 
 The app creates local runtime files in the project directory:
@@ -105,15 +99,3 @@ Typical flow:
 9. Click `Query Published`.
 
 `Save Skill Record` only saves the current Skill metadata and edited asset content locally. It does not call the backend.
-
-## Publishing Notes
-
-Before publishing or pushing changes, verify that the following are not staged:
-
-```text
-debug_toolbox_config.json
-debug_traces.sqlite3
-AI 调试 Skill/
-```
-
-GitHub does not automatically add an MIT license. If you want the repository to be MIT-licensed, create a `LICENSE` file or choose MIT when creating the GitHub repository.
